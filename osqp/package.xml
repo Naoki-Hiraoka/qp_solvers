@@ -2,8 +2,8 @@
 <package>
   <name>osqp</name>
   <version>0.0.0</version>
-  <description>osqp ROS Wrapper</description>
-  <maintainer email="anzai@jsk.imi.i.u-tokyo.ac.jp">Tomoki Anzai</maintainer>
+  <description>osqp</description>
+  <maintainer email="hiraoka@jsk.imi.i.u-tokyo.ac.jp">Naoki-Hiraoka</maintainer>
 
   <license>BSD</license>
 
