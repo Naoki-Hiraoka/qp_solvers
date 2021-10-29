@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(osqp-eigen)
+
+set(CMAKE_BUILD_TYPE Release)
+
 include(ExternalProject)
 find_package(osqp REQUIRED)
 
@@ -14,7 +17,7 @@ ExternalProject_Add(
   osqp-eigen
   GIT_REPOSITORY https://github.com/robotology/osqp-eigen
   GIT_TAG v0.6.2
-  CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX}
+  CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX} -DCMAKE_BUILD_TYPE=Release
   INSTALL_COMMAND echo "install"
   DEPEND osqp
   )

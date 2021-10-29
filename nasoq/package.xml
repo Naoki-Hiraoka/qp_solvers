@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>nasoq</name>
+  <version>0.0.0</version>
+  <description>The nasoq package</description>
+
+  <maintainer email="hiraoka@jsk.imi.i.u-tokyo.ac.jp">Naoki-Hiraoka</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>git</build_depend>
+
+  <depend>libopenblas-dev</depend>
+  <depend>liblapacke-dev</depend>
+
+</package>
