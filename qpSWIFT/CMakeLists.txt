@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.15) # qpSWIFTのCMakeLists.txtにはcmake_minimum_required(VERSION 3.5)と書いてあるが嘘である
 project(qpSWIFT)
 
 set(CMAKE_BUILD_TYPE Release)
