@@ -15,7 +15,7 @@ execute_process(COMMAND
 ExternalProject_Add(
   osqp
   GIT_REPOSITORY https://github.com/oxfordcontrol/osqp
-  GIT_TAG v0.6.0
+  GIT_TAG v0.6.2
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX} -DCMAKE_BUILD_TYPE=Release
   INSTALL_COMMAND echo "install"
   )

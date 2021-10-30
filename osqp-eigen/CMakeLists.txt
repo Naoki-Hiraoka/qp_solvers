@@ -16,7 +16,7 @@ execute_process(COMMAND
 ExternalProject_Add(
   osqp-eigen
   GIT_REPOSITORY https://github.com/robotology/osqp-eigen
-  GIT_TAG v0.6.2
+  GIT_TAG v0.6.4
   CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${CMAKE_INSTALL_PREFIX} -DCMAKE_BUILD_TYPE=Release
   INSTALL_COMMAND echo "install"
   DEPEND osqp
