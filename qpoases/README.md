@@ -1,0 +1,1 @@
+qpoases_vendorは、static libraryを生成するため共有ライブラリに使いづらかったり、CATKIN_INCLUDE_DIRSでincludeをうまくしていできなかったりしたため
