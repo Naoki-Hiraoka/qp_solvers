@@ -1,0 +1,3 @@
+- git:
+    uri: https://github.com/Naoki-Hiraoka/abseil_catkin.git
+    local-name: abseil_catkin
