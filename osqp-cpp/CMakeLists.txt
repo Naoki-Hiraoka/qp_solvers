@@ -21,6 +21,9 @@ catkin_package(
 
 set(OSQP-CPP_BUILD_TESTS OFF CACHE BOOL "") # typeを与えないと、cmake3.10ではoption()コマンドに上書きされてしまう. https://cmake.org/cmake/help/latest/policy/CMP0077.html#policy:CMP0077
 
+# CTRLC=OFFでosqpをビルドした場合、osqp_is_interrupted()関数が定義されないため
+set(CTRLC OFF CACHE BOOL "") # typeを与えないと、cmake3.10ではoption()コマンドに上書きされてしまう. https://cmake.org/cmake/help/latest/policy/CMP0077.html#policy:CMP0077
+
 add_subdirectory(osqp-cpp)
 
 install(DIRECTORY osqp-cpp/include/
